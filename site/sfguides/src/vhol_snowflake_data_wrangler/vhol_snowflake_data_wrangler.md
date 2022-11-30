@@ -497,6 +497,7 @@ Now click on the left pane on Data > Private Sharing. A new Direct Share will ap
 
 <img width="452" alt="image" src="https://user-images.githubusercontent.com/99338765/204863632-b8d65ff5-7640-47c2-bb7e-595ecacfe638.png">
 
+**Important** Be sure that you are in the role ML_ROLE before you get the data. Otherwise you have to switch ownership or grant new priviliges.
 Now click on Get Data and rename the database in KNOEMA_LABOR_DATA_ATLAS 
 
 <img width="323" alt="image" src="https://user-images.githubusercontent.com/99338765/204863940-77440f97-625c-49f2-b89f-32445614d6ad.png">
