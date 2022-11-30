@@ -435,7 +435,7 @@ SELECT * FROM LOAN_DATA LIMIT 100;
 ```
 
 
-### Snowflake Data Marketplace data
+### Explore Snowflake Data Marketplace data
 
 
 
@@ -477,9 +477,16 @@ This will show what data is available from the listing. We will notice indicator
 
 ![](assets/image41.png)
 
+Here we can see the dataset Labor Data Atlas from Knoema. If we want to use it, the only thing we have to do is click Get Data. After that it is ready to query instantly.
+Not all the tables are available in Germany, so we have to use Snowflake Data Sharing, which is so simple like get it from the marketplace. The instructor will send you the dataset via Snowflake, after you provide the Account ID.
+Enter the following command in the new worksheet
 
+...
+select current_account();
+...
 
-Next click on the **Get Data** button. This will provide a pop up window in which you can create a database in your account that will provide the data from the data provider.
+![image](https://user-images.githubusercontent.com/99338765/204862814-1ce8c1cf-960b-438f-9ba6-813cc490616b.png)
+
 
 **Click on the down arrow next to Options**
 
