@@ -481,34 +481,34 @@ Here we can see the dataset Labor Data Atlas from Knoema. If we want to use it, 
 Not all the tables are available in Germany, so we have to use Snowflake Data Sharing, which is so simple like get it from the marketplace. The instructor will send you the dataset via Snowflake, after you provide the Account ID.
 Enter the following command in the new worksheet
 
-...
+```
 select current_account();
-...
-
-![image](https://user-images.githubusercontent.com/99338765/204862814-1ce8c1cf-960b-438f-9ba6-813cc490616b.png)
-
+```
+![](assets/image54.png)
 
 **Click on the down arrow next to Options**
 
 Change the name of the database to **KNOEMA\_LABOR\_DATA\_ATLAS** and then click the **Get** button.
 
-![](assets/image54.png)
+![](assets/image_currentaccount.png)
 
+Now click on the left pane on Data > Private Sharing. A new Direct Share will appear in your account with the name KNOEMA_LABOR_DATA_ATLAS_SNOWFLAKE_SECURE_SHARE***!
 
+<img width="452" alt="image" src="https://user-images.githubusercontent.com/99338765/204863632-b8d65ff5-7640-47c2-bb7e-595ecacfe638.png">
 
-When the confirmation is provided click on **Done** 
+Now click on Get Data and rename the database in KNOEMA_LABOR_DATA_ATLAS 
 
-![](assets/image54a.png)
+<img width="323" alt="image" src="https://user-images.githubusercontent.com/99338765/204863940-77440f97-625c-49f2-b89f-32445614d6ad.png">
 
 Click on **Worksheets** on the left hand menu and then select your worksheet you have been using.
 
 ![](assets/image92.png)
 
-Data from the Snowflake Data Marketplace does not require any additional work and will show up as a database in your account. A further benefit is that the data will automatically update as soon as the data provider does any updates to the data on their account.
+Data from the Snowflake Data Marketplace and Data Sharing does not require any additional work and will show up as a database in your account. A further benefit is that the data will automatically update as soon as the data provider does any updates to the data on their account.
 
 
 
-Let’s start using the marketplace data. First we will create a view to pivot the data for the different employment metrics to columns for easier consumption.
+Let’s start using the data. First we will create a view to pivot the data for the different employment metrics to columns for easier consumption.
 
 
 
