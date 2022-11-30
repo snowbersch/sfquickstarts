@@ -480,12 +480,14 @@ This will show what data is available from the listing. We will notice indicator
 Here we can see the dataset Labor Data Atlas from Knoema. If we want to use it, the only thing we have to do is click Get Data. After that it is ready to query instantly.
 Not all the tables are available in Germany, so we have to use Snowflake Data Sharing, which is so simple like get it from the marketplace. 
 
+The instructor will send you the dataset via Snowflake, after you provide the Account ID.
+Enter the following command in the new worksheet
+
 ```
 select current_account();
 ```
 
-The instructor will send you the dataset via Snowflake, after you provide the Account ID.
-Enter the following command in the new worksheet
+
 
 <img width="452" alt="image" src="https://user-images.githubusercontent.com/99338765/204864909-2457f358-35f7-475e-b42d-bfa339c96cc0.png">
 
